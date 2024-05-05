@@ -1,0 +1,59 @@
+.interview-results {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #cddede; /* Faint yellow background color */
+  color: #000; /* Black font color */
+}
+
+.resultbgchange{
+  /* background: -webkit-gradient(linear, left top, right top, color-stop(55%, #1a2e35), color-stop(55%, #1cbbb4));
+  background: linear-gradient(to right, #1a2e35 55%, #1cbbb4 55%); */
+
+  background-color: #cddede;
+  color: #000;
+}
+
+.interview-results h2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin: 15px 0;
+  color: #1a2e35;
+  text-align: center;
+}
+
+.answer-container {
+  background-color: #ffffff30;
+  padding: 15px;
+  margin-top: 15px;
+  /* color: white; */
+  border-radius: 5px solid black;
+  box-shadow: 0 2px 4px rgb(1 19 21 / 97%);
+}
+.answer-container h5 {
+  font-size: 25px;
+  margin: 20px 0;
+  color: #1a2e35;
+}
+
+.answer-container p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.answer-container .answeruser{
+  font-weight:800;
+}
+
+.summary {
+  font-weight: 900;
+  /* color: white; */
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.answer-container h5{
+  /* color: #fff; */
+  font-weight: 900;
+}
+

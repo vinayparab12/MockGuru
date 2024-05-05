@@ -1,0 +1,71 @@
+
+.Home-page{
+  height: calc(95vh - 30px);
+  background: -webkit-gradient(linear, left top, right top, color-stop(55%, #1a2e35), color-stop(55%, #1cbbb4));
+  background: linear-gradient(to right, #1a2e35 55%, #1cbbb4 55%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.leftsection{
+  width: 50%;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+
+}
+
+
+.get-started-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    height: 95vh;
+  }
+  
+  .get-started-form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  .webpage {
+    text-align: center;
+    color: #333;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  .selectimg{
+    width: 600px;
+    height: 600px;
+  }
+  
+  .start-interview-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .start-interview-button:hover {
+    background-color: #45a049;
+  }
+  
